@@ -8,6 +8,9 @@ import (
 )
 
 func main() {
+	getTeams()
+
+	os.Exit(0)
 	bot, err := tgbotapi.NewBotAPI(os.Getenv("TELEGRAM_API_TOKEN"))
 	if err != nil {
 		panic(err)

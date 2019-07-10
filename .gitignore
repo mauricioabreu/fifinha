@@ -4,6 +4,7 @@
 *.dll
 *.so
 *.dylib
+fifinha
 
 # Test binary, build with `go test -c`
 *.test
